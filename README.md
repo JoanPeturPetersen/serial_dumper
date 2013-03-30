@@ -1,9 +1,10 @@
-serial_dumper
+Serial Dumper
 =============
 
 Dump data received from a serial port to standard out.
 
 It is possible to specify baudrate, stop bits, parity, and byte size.
+
 
 Requirements
 ============
