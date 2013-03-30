@@ -11,5 +11,6 @@ Requirements
 Requires pySerial and docopt. If you have pip installed, you can simply
 write:
 
-  pip install pyserial docopt
+.. code:: bash
+    pip install pyserial docopt
 
