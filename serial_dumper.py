@@ -1,3 +1,5 @@
+#!python
+
 """
 Usage: serial_dumper.py [--baudrate=BAUD] [--bytesize=BYTESIZE]
                         [--parity=PARITY] [--stopbits=STOPBITS] PORT
@@ -36,7 +38,7 @@ def dump_serial(ser_port, ser_baudrate, ser_bytesize, ser_parity,
 
 if __name__ == '__main__':
     arguments = docopt(__doc__, version='Serial dumper 1.0')
-    print arguments
+    #print arguments
     dump_serial(arguments['PORT'], ser_baudrate=arguments['--baudrate'],
         ser_bytesize=int(arguments['--bytesize']),
         ser_parity=arguments['--parity'],
